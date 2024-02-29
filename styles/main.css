@@ -73,3 +73,23 @@ img.next-image {
   display: inline;
   margin-right: 10px;
 }
+
+footer {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .links p {
+    margin: 0;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+}
