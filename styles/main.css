@@ -63,3 +63,13 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.links img {
+  display: inline;
+  margin-right: 10px;
+}
